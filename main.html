@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Volkhov&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+  <div id="container">
+        <div id="home">
+            <div id="navbar">
+                <div><img src="./image/logo.png" alt="" srcset=""></div>
+                <div>
+                    <ul id="list1">
+                        <li class="list1li"><a href="./main.html " target="_blank">Home</a></li>
+                        <li class="list1li"><a href="./index.html"target="_blank">About</a></li>
+                        <select id="opt1" class="list1li">
+                            <option class="options" >Service Packages</option>
+                            <option class="options" >Family Packages</option>
+                            <option class="options" >Tours Packages</option>
+                            <option  class="options" >Musical Events</option>
+                            <option class="options" >Build Package</option>
+                        </select>
+                        <li class="list1li"><a href="./tourinfo.html"target="_blank">Upcomming Packages</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button id="btn1">
+                        Get in Touch
+                    </button>
+                </div>
+            </div>
+            <div id="centertext">
+                <img src="./pimages/Vector 1.svg" alt="" srcset="">
+                    <p id="centerp">No matter where <br> you’re going to, we’ll <br> take you there</p>\
+                    <div id="trnsprt">
+                        <h5>Where to?</h5>
+                        <img src="./pimages/Rectangle 19288.png" alt="" srcset="">
+                        <h5>Travel Type</h5>
+                        <img src="./pimages/Rectangle 19288.png" alt="" srcset="">
+
+                        <h5>Duration</h5>
+                        <div id="modal-used">
+                            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <h5 class="modal-title" id="exampleModalToggleLabel">Please Share Your Details</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="mb-3">
+                                              <label for="exampleInputEmail1" class="form-label">Name</label>
+                                              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            </div>
+                                            <div class="mb-3">
+                                              <label for="exampleInputPassword1" class="form-label">Email</label>
+                                              <input type="email" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                                <input type="tel" class="form-control" id="exampleInputPassword1">
+                                              </div>
+                                              <div class="mb-3">
+                                                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                                                    <option selected>Your Preferences</option>
+                                                    <option value="1">America</option>
+                                                    <option value="2">Canada</option>
+                                                    <option value="3">India</option>
+                                                  </select>
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Number of members</label>
+                                                <input type="number" class="form-control" id="exampleInputPassword1">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label">Messages</label>
+                                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                              </div>
+            
+                                            
+                                            <button type="submit" class="btn btn-success subbtn">Submit</button>
+                                          </form>
+                                    </div>
+                                   
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                              </div>
+                              <a id="btn1" class="btn  enqrybtn" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Submit</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="slidingpics">
+                        <img src="./pimages/Ellipse 31.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 32.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 33.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 34.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 35.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 36.svg" alt="" srcset="">
+                        <img src="./pimages/Ellipse 37.svg" alt="" srcset="">
+                        <p>2,500 people booked Tommorowland Event in last 24 hours</p>
+                    </div>
+
+            </div>
+        </div>
+        <div id="page2">
+            <img id="ss4"src="./pimages/image 909.png" alt="" srcset="">
+            <img id="ss1" src="./pimages/Screenshot 2024-01-12 102736.png" alt="" srcset="">
+            <img id="ss2" src="./pimages/Screenshot 2024-01-12 102753.png" alt="" srcset="">
+            <img id="ss3" src="./pimages/Screenshot 2024-01-12 102817.png" alt="" srcset="">
+            <img id="ss5"src="./pimages/image 912 (1).png" alt="" srcset="">
+        </div>
+        <div id="page3">
+            <h5>CATEGORY</h5>
+            <h1>We Offer Best Services</h1>
+            <div id="page3in">
+               <div class="bsin">
+                <img id="bsi1" src="./pimages/tour-guide 1.png" alt="" srcset="">
+                <h5>Guided Tours</h5>
+                <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+               </div>
+               <div class="bsin">
+                <img id="bsi2"src="./pimages/travelling 1.png" alt="" srcset="">
+                <h5>Best Flights Options</h5>
+                <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+               </div>
+               <div class="bsin">
+                <img id="bsi3"src="./pimages/hands 1.png" alt="" srcset="">
+                <h5>Religious Tours</h5>
+                <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+               </div>
+               <div class="bsin">
+                <img id="bsi4"src="./pimages/medical-team 1.png" alt="" srcset="">
+                <h5>Medical insurance</h5>
+                <p>sunt qui repellat saepe quo velit aperiam id aliquam placeat.</p>
+               </div>
+            </div>
+        </div>
+        <div id="page4">
+            <div id="page4left">
+                <img id="pli1" src="./pimages/Ellipse 2.svg" alt="" srcset="">
+                <img  id="pli4"src="./pimages/image 50.png" alt="" srcset="">
+                <img id="pli2" src="./pimages/Ellipse 1.svg" alt="" srcset="">
+                <img  id="pli3"src="./pimages/Ellipse 3.svg" alt="" srcset="">
+                
+            </div>
+            <div id="page4right">
+                <h5>Honeymoon Specials</h5>
+                <h1>Our Romantic Tropical Destinations</h1>
+                <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis <br> praesentium a laudantium internos. Non quis eius quo eligendi corrupti <br>et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus illumn <br> aut optio quibusdam!</p>
+                <button id="btn1">
+                    <a href="./packages.html">View Packages</a>
+                </button>
+            </div>
+        </div>
+        <div id="page5">
+            <div id="p5left">
+                <h5>Fast & Easy</h5>
+                <h1>Get Your Favourite <br>
+                    Resort Bookings</h1>
+                    <div class="p5d">
+                        <img src="./pimages/Group 7.svg" alt="" srcset="">
+                        <div> 
+                            <h5>Choose Destination</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                adipiscing elit. Urna, tortor tempus. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p5d">
+                        <img src="./pimages/Group 12.svg" alt="" srcset="">
+                        <div> 
+                            <h5>Check Availability</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                adipiscing elit. Urna, tortor tempus. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p5d">
+                        <img src="./pimages/Group 11.svg" alt="" srcset="">
+                        <div> 
+                            <h5>Let’s Go</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur <br>
+                                adipiscing elit. Urna, tortor tempus. 
+                            </p>
+                        </div>
+                    </div>
+            </div>
+            <div id="p5right">
+                <img id="p5i1" src="./pimages/Rectangle 16.png" alt="" srcset="">
+              <div id="p5rin">
+                    <img id="p5i2" src="./pimages/Rectangle 17.png" alt="" srcset="">
+                    <h4>Trip to Hawaii </h4>
+                    <h5>14-29 June by JR Martinax</h5>
+                    <div>
+                        <img class="p5rimg" src="./pimages/leaf 1.svg" alt="" srcset="">&nbsp;&nbsp;&nbsp;
+                        <img class="p5rimg" src="./pimages/map 1.svg" alt="" srcset="">&nbsp;&nbsp;&nbsp;
+                        <img class="p5rimg" src="./pimages/send 2.svg" alt="" srcset="">
+                    </div>
+                    <div id="p5rin2">
+                        <img class="p5rimg" src="./pimages/building 1.svg" alt="" srcset="">
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60 people are interested</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="p5rimg"src="./pimages/heart (6) 1.svg" alt="" srcset="">
+                    </div>
+                    <div id="ttrome">
+                        <img src="./pimages/Rectangle 18.png" alt="" srcset="">
+                        <div id="swb">
+                           <div id="swbin">
+                                <img src="./pimages/image 32.png" alt="" srcset="">
+                                <h5>Ongoing</h5>
+                           </div>
+                            <h3>Trip to rome</h3>
+                            <h4><span id="orange">40% </span><span id="blck">completed</span></h4>
+                            <img src="./pimages/Group 3.svg" alt="" srcset="">
+                        </div>
+                    </div>
+              </div>
+              <img id="plane872" src="./pimages/image 872.png" alt="" srcset="">
+            </div>
+        </div>
+        <div id="page6">
+            <h1>Let’s make your <br>
+                next holiday amazing</h1>
+        </div>
+        <div id="page7">
+            <div id="pg7in">
+                <h5>Promotion</h5>
+                <h1>We Provide You Best <br> Europe Sightseeing Tours</h1>
+                <p>Et labore harum non nobis ipsum eum molestias mollitia et corporis <br> praesentium a laudantium internos. Non quis eius quo eligendi corrupti <br>et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus <br> illum aut optio quibusdam!</p>
+                <button id="btn1">
+                    <a href="">View Packages</a>
+                </button>
+                <br><br>
+            </div>
+            <div id="pg7in2">
+                <img class="p7imgs" id="pg7img1" src="./pimages/Rectangle 19295.png" alt="" srcset="">
+                <img  class="p7imgs"  id="pg7img2" src="./pimages/Rectangle 19296.png" alt="" srcset="">
+                <img  class="p7imgs"  id="pg7img3" src="./pimages/Rectangle 19297.png" alt="" srcset="">
+                <img  class="p7imgs"  id="pg7img4" src="./pimages/Rectangle 19298.png" alt="" srcset="">
+                <img id="eifiltwr" src="./pimages/iiiiiii.png" alt="" srcset="">
+
+            </div>
+        </div>
+        <div id="page8">
+            <div id="page81">
+                <h4>Promotion</h4>
+                <h1>Explore Nature</h1>
+                <button id="btn2">
+                    <a href="">View Packages</a>
+                </button>
+            </div>
+            <div id="page82">
+                <h4>Promotion</h4>
+                <h1>Explore Cities</h1>
+                <button id="btn2">
+                    <a href="">View Packages</a>
+                </button>
+            </div>
+        </div>
+        <div id="page9">
+            <h5>trendy</h5>
+            <h1>Our Trending Tour <br>Packages</h1>
+            <div id="trendypacks">
+
+                  <div class="card" style="width: 18rem;">
+                    <img src="./pimages/Rectangle 19305.png" class="card-img-top" alt="...">
+                    <div class="cardinn">
+                        <img class="flgrnd"  src="./pimages/Ellipse 623.svg" alt="" srcset="">
+                      <h5 class="card-title">Switzerland&nbsp;&nbsp;&nbsp;
+                        <i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i>
+                    </h5>
+                    <h3>&nbsp;1,000 $</h3>
+                      <p class="card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                      <button id="btn3">
+                        Explore Now
+                    </button>
+                     
+
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./pimages/Rectangle 19305 (1).png" class="card-img-top" alt="...">
+                    <div class="cardinn">
+                        <img class="flgrnd" src="./pimages/Ellipse 623 (1).svg" alt="" srcset="">
+
+                      <h5>Amazon&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i></h5>
+                      <h3>&nbsp;1,223 $</h3>
+                      <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                      <button id="btn3">
+                        Explore Now
+                    </button>
+                     
+
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./pimages/Rectangle 19305 (2).png" class="card-img-top" alt="...">
+                    <div class="cardinn">
+                        <img  class="flgrnd" src="./pimages/Ellipse 623 (2).svg" alt="" srcset="">
+
+                      <h5>Giza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i><i class="fa-solid fa-star starr"></i></h5>
+                        <h3>&nbsp;1,200 $</h3>
+                      <p>Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium internos.</p>
+                      <button id="btn3">
+                        Explore Now
+                    </button>
+                     
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div id="promopage">
+            <div id="ptext">
+                   <p id="prp1">PROMOTIONS</p>
+                   <h1 id="prh1">See What Our Clients Say <br>About Us</h1>
+                   <img id="primg" src="./image/Ellipse 624.svg" alt="" srcset="">
+                   <p id="prp2">We have had an excellent trip to Kaziranga National Park. It was one of our best trip in recent times. This was our first trip with "Tour my India" and we all, especially my parents, are very happy with the way it was organized.</p>
+                   <h4 id="prh4">Christine Beckam - Designer</h4>
+            </div>
+           </div>
+           <div id="footer">
+               <div id="ft1">
+                   <ul class="ull">
+                       <li><img id="fti1" src="./image/Arrow 05.png" alt="" srcset="">
+                       <img  id="fti2"  src="./image/Travel.png" alt="" srcset=""></li>
+                       <li>Travel helps companies <br>manage payments easily.</li>
+                       <li>
+                           <div id="icon-collections">
+                               <div class="icon">
+                                   <a href="" target="_blank"><i class="fa-brands fa-twitter brand"></i></a>
+                               </div>
+                               <div class="icon">
+                                   <a href="" target="_blank"><i class="fa-brands fa-facebook brand"></i></a>
+                               </div>
+                               <div class="icon">
+                                   <a href="" target="_blank"><i class="fa-brands fa-instagram brand"></i></a>
+                               </div>
+                               <div class="icon">
+                                   <a href="" target="_blank"><i class="fa-solid fa-envelope brand"></i></a>
+                               </div>
+                               
+                           </div>
+   
+                       </li>
+                   </ul>
+   
+               </div>
+               <div id="ft2">
+                   <ul class="ull">
+                       <li><h3>Company</h3></li>
+                       <li>About Us</li>
+                       <li>Careers</li>
+                       <li>Blog</li>
+                       <li>Priceing</li>
+                   </ul>
+               </div>
+               <div id="ft3">
+                   <ul class="ull">
+                       <li><h3>Destinations</h3></li>
+                       <li>Maldives</li>
+                       <li>Los Angelas</li>
+                       <li>Las vegas</li>
+                       <li>Torronto</li>
+                   </ul>
+               </div>
+               <div id="ft4 ">
+                   <ul class="ull ull1">
+                       <li><h3>Join Our Newsletter</h3></li>
+                       <li><input id="ftemail" type="email" placeholder="Your email address"><button id="ftbtn">Subscribe</button></li>
+                       <li id="lstwrds">* Will send you weekly updates for your better<br/>tour packages.</li>
+                   </ul>
+               </div>
+               
+              
+           </div>
+           <hr>
+            <p class="cpy">Copyright @ Xpro 2022. All Rights Reserved.</p>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

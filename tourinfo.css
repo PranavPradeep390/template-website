@@ -1,0 +1,374 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#home{
+    width: 100%;
+    height: 605px;
+    background-image: url("./pimages/Rectangle\ 19290.png");
+    background-size: cover;
+}
+#navbar{
+    width: 75%;
+    height: 67px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 63px;
+}
+#btn1{
+    width: 152px;
+    height: 58px;
+    background-color: #DF6951;
+    border: 0cap;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#list1{
+    display: flex;
+    list-style: none;
+    color: white;
+    
+}
+.list1li>a{
+    margin-right: 30px;
+    color: white;
+font-size: 17px;
+font-family: manrope;
+font-weight: 500;
+word-wrap: break-word;
+text-decoration: none;
+}
+.options{
+    background-color: black;
+    color: white;
+font-size: 17px;
+font-family: manrope;
+font-weight: 500;
+word-wrap: break-word;
+text-decoration: none;
+    
+
+}
+#opt1{
+    background-color: transparent;
+    border: 0cap;
+    color: white;
+   
+}
+#centertext{
+    text-align: center;
+    color: white;
+    font-size: 117.43px;
+    font-family: Yesteryear;
+    font-weight: 400;
+    line-height: 223.68px;
+    word-wrap: break-word;
+    margin-top: 150px;
+    
+}
+#spage{
+    width: 100%;
+    height: 1640px;
+}
+#spagein{
+    width: 70%;
+    height: 1600px;
+    margin: auto;
+    box-shadow:  0 0 10px black;
+    margin-top: -60px;
+  
+}
+#snav{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(200, 217, 212);
+}
+#sul{
+    list-style: none;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sgallery>h3{
+    color: #181E4B;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: 700;
+    line-height: 71.04px;
+    word-wrap: break-word;
+    padding-left: 30px;
+}
+#sgallery>p{
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 0px 30px;
+    text-align: justify;
+}
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.galpics{
+    width: 180px;
+    height: 194px;
+    padding: 10px;
+}
+.galpics>img{
+    width: 100%;
+    height: 100%;
+}
+/* .sulli{
+    background-color: #DF6951;
+    padding: 40px 60px;
+} */
+.sulli>a{
+    color: #343434;
+font-size: 20px;
+font-family: Poppins;
+font-weight: 700;
+text-transform: capitalize;
+letter-spacing: 2px;
+word-wrap: break-word;
+text-decoration: none;
+
+}
+#spagein2{
+    width: 60%;
+    height: 890px;
+   
+}
+#spagein2>h5{
+    padding-left: 30px;
+}
+#starsrow{
+    padding-left: 30px;
+
+}
+.orange{
+    color: #DF6951;
+}
+.dtls{
+    
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word;
+padding-left: 30px ;
+}
+#highlighthead{
+    background-color: white;
+    padding: 40px;
+}
+#detailspara{
+    text-align: justify;
+    padding: 0px 30px;
+    color: black;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word
+}
+#detailshead{
+    color: #181E4B;
+font-size: 31.62px;
+font-family: Volkhov;
+font-weight: 700;
+text-transform: capitalize;
+word-wrap: break-word
+}
+.card{
+    margin: 15px;
+    border: transparent;
+
+
+}
+.card:hover{
+    padding: 2px;    box-shadow:  0 0 5px black;
+
+}
+.star{
+    color: gold;
+}
+#rtng{
+    margin-left: 150px;
+}
+#cpic{
+    width: 100%;
+    height: 223px;
+}
+#spagein3{
+    width: 38%;
+    height: 890px;
+    
+
+}
+#sin{
+    display: flex;
+}
+#spin1{
+    width: 100%;
+    height: 930px;
+    background-color: #EDEDED;
+    text-align: center;
+    padding-top: 20px;
+}
+#spin1>h1{
+    color: #181E4B;
+    font-size: 42px;
+    font-family: Volkhov;
+    font-weight: 700;
+    word-wrap: break-word
+}
+#spin1>p{
+    color: black;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word
+}
+.pytsearch{
+    width: 80%;
+    height: 70px;
+    border: transparent;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+.pytsearch::placeholder{
+    text-align: center;
+}
+#clr{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+
+}
+#clr1{
+    width: 40px;
+    height: 40px;
+    background-color: #DF6951;
+   
+}
+#clr3{
+    width: 40px;
+    height: 40px;
+ background-color: #DF6951;
+
+}
+#clr2{
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 40px;
+
+}
+#pricerange{
+    color: rgba(0, 0, 0, 0.56);
+font-size: 18px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 26px;
+word-wrap: break-word
+}
+#pricebtn{
+    padding: 8px 18px;
+    background-color: #DF6951;
+    border: transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 16.72px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word
+}
+#spin2>img{
+    width: 400px;
+    height: 350px;
+    margin-top: 100px;
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#icon-collections{
+    display: flex;
+  margin-top: 10px;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin-right: -13px;
+}
+.brand{
+    font-size: 20px;
+    color: #DF6951;
+   
+}
+.ull{
+    list-style: none;
+}
+.ull>li{
+    padding: 5px;
+    color: #181433;
+font-size: 16px;
+font-family: Manrope;
+font-weight: 500;
+line-height: 24px;
+word-wrap: break-word
+}
+.cpy{
+    text-align: center;
+    padding: 50px;
+}
+#fti1{
+    position: absolute;
+   
+}
+#fti2{
+    margin-top: 10px;
+}
+#ftbtn{
+    background-color:#DF6951 ;
+    padding: 5px;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
+#ftemail{
+    padding: 5px;
+    background-color: #EEEEFF;
+    border: transparent;
+    border-radius: 5px;
+}
+.ull1{
+    margin-top: -45px;
+}
+#lstwrds{
+color: #181433;
+font-size: 16px;
+font-family: Manrope;
+font-weight: 500;
+line-height: 26px;
+word-wrap: break-word
+}
